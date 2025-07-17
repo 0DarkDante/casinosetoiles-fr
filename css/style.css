@@ -6920,24 +6920,23 @@ textarea.input-field {
                 justify-content: center;
             }
         }
-
 .affiliate-info,
 .about-platform,
 .privacy-policy,
 .terms-conditions,
 .responsible-gaming {
   max-width: 800px;
-  margin: 50px auto 50px auto;
-  padding: 40px 40px 40px 40px;
-  background-color: #1c2333;
-  /* насыщенный темно-синий фон */
-  border: 2px solid #11427e;
-  /* глубокий синий бордер */
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #4f4432;
+  /* темний бурштиновий фон */
+  border: 2px solid #6b5a1f;
+  /* теплий коричневий бордер */
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(17, 66, 126, 0.7);
-  /* синий оттенок тени */
-  color: #F5F5F5;
-  /* белый текст */
+  box-shadow: 0 10px 30px rgba(107, 90, 31, 0.7);
+  /* тінь в бурштинових відтінках */
+  color: #f5f3eb;
+  /* світлий, теплий білий текст */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   animation: fadeInUp 0.7s ease forwards;
@@ -6965,8 +6964,8 @@ textarea.input-field {
 .terms-conditions h2,
 .responsible-gaming h1,
 .responsible-gaming h2 {
-  color: #1598f5;
-  /* твой яркий синий */
+  color: #d6c88e;
+  /* теплий світлий бурштин */
   margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
@@ -7006,8 +7005,8 @@ textarea.input-field {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 15px;
-  color: #c7d9ff;
-  /* светло-синий, мягкий для текста */
+  color: #cfc7ae;
+  /* світлий теплий бежево-бурштиновий для тексту */
 }
 
 .responsible-gaming ul {
@@ -7026,22 +7025,25 @@ textarea.input-field {
 
 .privacy-policy a,
 .responsible-gaming a {
-  color: #1598f5;
+  color: #d6c88e;
+  /* теплий бурштин */
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .privacy-policy a:hover,
 .responsible-gaming a:hover {
-  color: var(--primary-400);
+  color: #fff9e3;
+  /* світлий теплий білий */
 }
 
 .affiliate-info button {
   padding: 12px 28px;
   font-size: 1rem;
-  background-color: #11427e;
-  /* насыщенный темно-синий */
-  color: #F5F5F5;
+  background-color: #6b5a1f;
+  /* теплий коричневий */
+  color: #f5f3eb;
+  /* світлий білий */
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -7049,8 +7051,8 @@ textarea.input-field {
 }
 
 .affiliate-info button:hover {
-  background-color: #0d3670;
-  /* темнее синий на hover */
+  background-color: #50441a;
+  /* темніший коричневий */
   transform: translateY(-2px);
 }
 
