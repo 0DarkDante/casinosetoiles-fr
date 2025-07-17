@@ -16,8 +16,8 @@
   --primary-200: #ffd999;
   --primary-100: #ffe9cc;
   --primary-50: #fff5e6;
-  --color-border: #b88600;;
-  --color-bg-block: #3d2f00;
+  --color-border: rgba(255, 255, 255, 0.95);
+  --color-bg-block: #4f4432;
 
   /* Neutrals – anthracite */
   --neutral-900: #2B2B2B;
